@@ -2,7 +2,7 @@
     --cor-background-Body:#FFEDD5;
     --cor-background-titulo:#FED7AA;
     --cor-nomes:#2D2C2A;
-    --cor-descricao:#000000;
+    --cor-descricao:rgba(0, 0, 0, 0.6);
 }
 body{
     font-family: 'Roboto Serif', sans-serif;
@@ -10,9 +10,6 @@ body{
     padding: 1.5rem;
 }
 
-.cabecalhoP{
-    
-}
 
 .cabecalho__box{
     display: flex;
@@ -65,7 +62,6 @@ body{
 }
 .items__lista__texto{
     color: var(--cor-descricao);
-    text-align: left;
     font-weight: 400;
     font-size: 14px;
     padding: 1rem 0;
