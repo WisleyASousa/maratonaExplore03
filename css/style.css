@@ -1,0 +1,74 @@
+:root{
+    --cor-background-Body:#FFEDD5;
+    --cor-background-titulo:#FED7AA;
+    --cor-nomes:#2D2C2A;
+    --cor-descricao:#000000;
+}
+body{
+    font-family: 'Roboto Serif', sans-serif;
+    background-color: var(--cor-background-Body);
+    padding: 1.5rem;
+}
+
+.cabecalhoP{
+    
+}
+
+.cabecalho__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    
+}
+.cabecalho__logo{
+    width: 240px;
+}
+.cabecalho__texto{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-descricao);
+    margin: 1rem 0 2rem 0;
+    font-family: Roboto, sans-serif;
+}
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.corpo_titulo{
+    
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--cor-background-titulo);
+    width: 240px;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0 0 1rem 0;
+
+}
+.corpo__lista{
+    width: 250px;
+}
+.items__lista__titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-nomes);
+    
+}
+.items__lista__texto{
+    color: var(--cor-descricao);
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 1rem 0;
+    margin-right: 4rem;
+    font-family: Roboto, sans-serif;
+}
