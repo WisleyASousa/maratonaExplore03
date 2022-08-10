@@ -1,4 +1,5 @@
-# maratonaExplore03-Rocketseat
+# Maratona Explore 03 - Rocketseat
+
 
 ![Banner Maratona Explorere](img/banner.png)
 
